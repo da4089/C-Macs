@@ -13,7 +13,7 @@ C-Macs is a successful attempt to port the ability to [dig a foundation with a s
 ## License
 * Absolutely no license.  Use it at your own risk, and don't blame me if anything bad happens.  Oh, and if you extend it, make sure there isn't any Objective-C in it!
 
-##Important Notes & Bugs
+## Important Notes & Bugs
 * The app does not release allocated memory;
 * There is an implied autoreleasepool, but one is not explicitly created.
 * A small reliance on `__attribute__((constructor))`, which is not the best way to do things…
